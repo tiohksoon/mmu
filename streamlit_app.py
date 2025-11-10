@@ -26,4 +26,4 @@ env.build("""(defrule room
 
 # Display rules
 # env.eval("(list-defrules)")  
-env.eval("(ppdefrule room)")
+st.write(env.eval("(ppdefrule room)"))
