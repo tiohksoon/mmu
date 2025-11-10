@@ -27,4 +27,4 @@ env.build("""(defrule room
 # Display rules
 # env.eval("(list-defrules)")  
 # env.eval("(ppdefrule room)")
-st.write(env.eval("(list-defrules)"))
+st.write('(printout t "Best plant is ivy!" crlf)')
